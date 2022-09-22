@@ -58,6 +58,13 @@
                 <li><a href=https://kju0048.github.io/java/Qs2_8.html>논리연산자 1[과제](Qs2_8)</a></li>
                 <li><a href=https://kju0048.github.io/java/Qs2_9.html>논리연산자 2[과제](Qs2_9)</a></li>
             </ol><hr style="background:darkcyan ; height:3px; color: darkcyan">
+            <div class="panel blue"><button class="main4" style="cursor:pointer;">[4~5주차] 조건문</button></div>
+            <ol class="sub" id="tem4" style="display:none">
+                <li><a href=https://kju0048.github.io/java/Ex3_1.html>if 조건문1(Ex3_1)</a></li>
+                <li><a href=https://kju0048.github.io/java/Ex3_2.html>if 조건문2(Ex3_2)</a></li>
+                <li><a href=https://kju0048.github.io/java/Ex3_3.html>if 조건문3(Ex3_3)</a></li>
+                <li><a href=https://kju0048.github.io/java/Ex3_4.html>if 조건문4(Ex3_4)</a></li>
+            </ol><hr style="background:darkcyan ; height:3px; color: darkcyan">
             
         </ul>
         <script>
@@ -88,6 +95,16 @@
                 else{
                     $(".sub").slideUp();
                     $("#tem3").slideDown();
+                }
+            })
+            
+            $(".main4").click(function(){
+                if($("#tem4").is(":visible")){
+                    $("#tem4").slideUp();
+                }
+                else{
+                    $(".sub").slideUp();
+                    $("#tem4").slideDown();
                 }
             })
         </script>
