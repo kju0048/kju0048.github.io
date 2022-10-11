@@ -98,7 +98,14 @@
                 <li><a href=https://kju0048.github.io/java/Ex5_4.html>배열 정렬(Ex5_4)</a></li>
                 <li><a href=https://kju0048.github.io/java/Qs5_1.html>소수 구하기(Qs5_1)</a></li>
             </ol><hr style="background:darkcyan ; height:3px; color: darkcyan">
-            
+            <div class="panel blue"><button class="main7" style="cursor:pointer;">[6주차] 함수</button>
+            </div>
+            <ol class="sub" id="tem7" style="display:none">
+                <li><a href=https://kju0048.github.io/java/Ex6_1.html>함수 1(Ex6_1)</a></li>
+                <li><a href=https://kju0048.github.io/java/Ex6_2.html>함수 2(Ex6_2)</a></li>
+                <li><a href=https://kju0048.github.io/java/Ex6_3.html>함수 3(Ex6_3)</a></li>
+                <li><a href=https://kju0048.github.io/java/Qs6_1.html>Ex6_3 변형(Qs6_1)</a></li>
+            </ol><hr style="background:darkcyan ; height:3px; color: darkcyan">
         </ul>
         <script>
             $(".main1").click(function(){
@@ -158,6 +165,16 @@
                 else{
                     $(".sub").slideUp();
                     $("#tem6").slideDown();
+                }
+            })
+            
+            $(".main7").click(function(){
+                if($("#tem7").is(":visible")){
+                    $("#tem7").slideUp();
+                }
+                else{
+                    $(".sub").slideUp();
+                    $("#tem7").slideDown();
                 }
             })
         </script>
