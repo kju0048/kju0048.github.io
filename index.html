@@ -154,6 +154,14 @@
                 <li><a href=https://kju0048.github.io/java/Ex8_19.html>지갑(Ex8_19)</a></li>
                 <li><a href=https://kju0048.github.io/java/Ex8_22.html>디바이스(Ex8_22)</a></li>
             </ol><hr style="background:darkcyan ; height:3px; color: darkcyan">
+            <div class="panel blue"><button class="main10" style="cursor:pointer;">[11주차] 인터페이스</button>
+            </div>
+            <ol class="sub" id="tem10" style="display:none">
+                <li><a href=https://kju0048.github.io/java/Ex9_1.html>인터페이스 일반(Ex9_1)</a></li>
+                <li><a href=https://kju0048.github.io/java/Ex9_2.html>Ex9_1 + Eng(Ex9_2)</a></li>
+                <li><a href=https://kju0048.github.io/java/Ex9_3.html>Ex9_1 + 점심(Ex9_3)</a></li>
+                <li><a href=https://kju0048.github.io/java/Ex9_4.html>인터페이스 응용(Ex9_4)</a></li>
+            </ol><hr style="background:darkcyan ; height:3px; color: darkcyan">
         </ul>
         <script>
             $(".main1").click(function(){
@@ -243,6 +251,16 @@
                 else{
                     $(".sub").slideUp();
                     $("#tem9").slideDown();
+                }
+            })
+            
+            $(".main10").click(function(){
+                if($("#tem10").is(":visible")){
+                    $("#tem10").slideUp();
+                }
+                else{
+                    $(".sub").slideUp();
+                    $("#tem10").slideDown();
                 }
             })
         </script>
