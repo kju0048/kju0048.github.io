@@ -162,6 +162,21 @@
                 <li><a href=https://kju0048.github.io/java/Ex9_3.html>Ex9_1 + 점심(Ex9_3)</a></li>
                 <li><a href=https://kju0048.github.io/java/Ex9_4.html>인터페이스 응용(Ex9_4)</a></li>
             </ol><hr style="background:darkcyan ; height:3px; color: darkcyan">
+            <div class="panel blue"><button class="main11" style="cursor:pointer;">[13주차] 콜렉션과 제너릭</button>
+            </div>
+            <ol class="sub" id="tem11" style="display:none">
+                <li><a href=https://kju0048.github.io/java/Ex12_1.html>ArrayList(Ex12_1)</a></li>
+                <li><a href=https://kju0048.github.io/java/Ex12_2.html>ArrayList+제너릭(Ex12_2)</a></li>
+                <li><a href=https://kju0048.github.io/java/Ex12_3.html>ArrayList 함수(Ex12_3)</a></li>
+                <li><a href=https://kju0048.github.io/java/Ex12_4.html>Ex12_2 for 확장(Ex12_4)</a></li>
+            </ol><hr style="background:darkcyan ; height:3px; color: darkcyan">
+            <div class="panel blue"><button class="main12" style="cursor:pointer;">[13주차] 도서관리 시스템</button>
+            </div>
+            <ol class="sub" id="tem12" style="display:none">
+                <li><a href=https://kju0048.github.io/java/MyStore1.html>도서관리 시스템</a></li>
+                <li><a href=https://kju0048.github.io/java/MyStore2.html>도서관리 시스템 확장</a></li>
+                <li><a href=https://kju0048.github.io/java/MyStore3.html>도서관리 시스템 + MyMenu</a></li>
+            </ol><hr style="background:darkcyan ; height:3px; color: darkcyan">
         </ul>
         <script>
             $(".main1").click(function(){
@@ -261,6 +276,26 @@
                 else{
                     $(".sub").slideUp();
                     $("#tem10").slideDown();
+                }
+            })
+            
+            $(".main11").click(function(){
+                if($("#tem11").is(":visible")){
+                    $("#tem11").slideUp();
+                }
+                else{
+                    $(".sub").slideUp();
+                    $("#tem11").slideDown();
+                }
+            })
+            
+            $(".main12").click(function(){
+                if($("#tem12").is(":visible")){
+                    $("#tem12").slideUp();
+                }
+                else{
+                    $(".sub").slideUp();
+                    $("#tem12").slideDown();
                 }
             })
         </script>
