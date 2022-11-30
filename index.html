@@ -177,6 +177,15 @@
                 <li><a href=https://kju0048.github.io/java/MyStore2.html>도서관리 시스템 확장</a></li>
                 <li><a href=https://kju0048.github.io/java/MyStore3.html>도서관리 시스템 + MyMenu</a></li>
             </ol><hr style="background:darkcyan ; height:3px; color: darkcyan">
+            <div class="panel blue"><button class="main13" style="cursor:pointer;">[14주차] 예외처리</button>
+            </div>
+            <ol class="sub" id="tem13" style="display:none">
+                <li><a href=https://kju0048.github.io/java/Ex10_1.html>예외처리 전(Ex10_1)</a></li>
+                <li><a href=https://kju0048.github.io/java/Ex10_2.html>예외처리 후(Ex10_2)</a></li>
+                <li><a href=https://kju0048.github.io/java/Ex10_3.html>예외처리 종류(Ex10_3)</a></li>
+                <li><a href=https://kju0048.github.io/java/Ex10_4.html>예외처리 통합(Ex10_4)</a></li>
+                <li><a href=https://kju0048.github.io/java/Ex10_5.html>예외처리 throws(Ex10_5)</a></li>
+            </ol><hr style="background:darkcyan ; height:3px; color: darkcyan">
         </ul>
         <script>
             $(".main1").click(function(){
@@ -296,6 +305,16 @@
                 else{
                     $(".sub").slideUp();
                     $("#tem12").slideDown();
+                }
+            })
+            
+            $(".main13").click(function(){
+                if($("#tem13").is(":visible")){
+                    $("#tem13").slideUp();
+                }
+                else{
+                    $(".sub").slideUp();
+                    $("#tem13").slideDown();
                 }
             })
         </script>
